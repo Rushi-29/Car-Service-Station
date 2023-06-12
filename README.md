@@ -14,14 +14,14 @@
 * Car Service Prices
 
 >### Usage
-To run the program, follow these steps:
-
-Ensure you have a Java development environment set up on your machine.
-Compile the Java source files CarServiceStation.java and Main.java using the Java compiler.
-Run the compiled program using the Java Virtual Machine (JVM).
-The program will prompt you to enter the type of car and the number of service codes.
-Enter the service codes as required.
-The program will display the type of car, service codes, total bill, and whether a complimentary cleaning is included if the total bill is above ₹10,000.
+  To run the program, follow these steps:-
+  
+    Ensure you have a Java development environment set up on your machine.
+    Compile the Java source files CarServiceStation.java and Main.java using the Java compiler.
+    Run the compiled program using the Java Virtual Machine (JVM).
+    The program will prompt you to enter the type of car and the number of service codes.
+    Enter the service codes as required.
+    The program will display the type of car, service codes, total bill, and whether a complimentary cleaning is included if the total bill is above ₹10,000.
 
 >### Example
 Here's an example usage of the program:
