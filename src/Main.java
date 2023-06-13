@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
 //        Scanner sc=new Scanner(System.in);
 //        String carType = sc.next();
 //        int n=sc.nextInt();
@@ -17,10 +16,10 @@ public class Main {
 //        [BS01]
 //        [EF01]
         CarServiceStation serviceStation = new CarServiceStation();
-        String carType = "Hatchback";
-        String[] serviceCodes = {"BS01", "EF01"};
-//        String carType = "Sedan";
-//        String[] serviceCodes = {"BS01", "CF01"};
+//        String carType = "Hatchback";
+//        String[] serviceCodes = {"BS01", "EF01","CF01"};
+        String carType = "Sedan";
+        String[] serviceCodes = {"BS01", "CF01"};
 
         int totalBill = serviceStation.calculateBill(carType, serviceCodes);
 
