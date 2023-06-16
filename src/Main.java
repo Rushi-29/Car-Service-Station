@@ -16,10 +16,10 @@ public class Main {
 //        [BS01]
 //        [EF01]
         CarServiceStation serviceStation = new CarServiceStation();
-//        String carType = "Hatchback";
-//        String[] serviceCodes = {"BS01", "EF01","CF01"};
-        String carType = "Sedan";
-        String[] serviceCodes = {"BS01", "CF01"};
+        String carType = "Hatchback";
+        String[] serviceCodes = {"BS01", "EF01","CF01","GF01"};
+//        String carType = "Sedan";
+//        String[] serviceCodes = {"BS01", "CF01"};
 
         int totalBill = serviceStation.calculateBill(carType, serviceCodes);
 
